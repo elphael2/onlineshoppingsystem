@@ -1,0 +1,56 @@
+/* General Reset/Defaults */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Override Bootstrap primary with Taobao orange */
+.btn-primary,
+.btn-outline-primary {
+    background-color: #ff5000;
+    border-color: #ff5000;
+    color: white;
+}
+
+.btn-primary:hover,
+.btn-outline-primary:hover {
+    background-color: #e04400;
+    border-color: #e04400;
+    color: white;
+}
+
+/* Outline variation on hover */
+.btn-outline-primary {
+    background-color: transparent;
+    color: #ff5000;
+}
+
+.btn-outline-primary:hover {
+    background-color: #ff5000;
+    color: white;
+}
+
+/* Cart / secondary button */
+.btn-outline-success {
+    border-color: #ff5000;
+    color: #ff5000;
+}
+
+.btn-outline-success:hover {
+    background-color: #ff5000;
+    color: white;
+    border-color: #ff5000;
+}
+
+/* Rounded buttons */
+button,
+.btn {
+    border-radius: 50px !important;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
